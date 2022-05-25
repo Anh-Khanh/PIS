@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="anh">
+        <div class="vot">
+      <canvas id="myChart" width="10" height="5"></canvas>
+      <h3>BIỂU ĐỒ SỐ LƯỢNG CHỨC VỤ</h3>
+    </div>
+      <div class="vot">
+      <canvas id="today" width="10" height="5"></canvas>
+      <h3>Biểu đồ tổng thu nhập năm  và năm nay</h3>
+    </div>
+    </div>
+    <div>
+       <div class="vot">
+         <canvas id="mygender" width="10" height="5"></canvas>
+         <h3>Biểu đồ giới tính</h3>
+    </div>
+    </div>
+    <style>
+      .anh {
+            display: flex;
+            justify-content: space-between;
+      }
+      body {
+          height: 100vh;
+      }
+      .vot {
+        width: 500px;
+        height: 500px;
+      }
+    </style>
+    <script src="./dashboard.js"></script>
+  </body>
+</html>
